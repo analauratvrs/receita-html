@@ -1,6 +1,5 @@
 body {
     background-color: #F0F0F0;
-    ;
 }
 
 .box {
@@ -9,7 +8,6 @@ body {
     width: 798px;
     padding: 20px 26px 12px 27px;
     margin: 24px 59px 37px 59px;
-    box-sizing: border-box;
     text-align: left;
 }
 
@@ -38,9 +36,15 @@ body {
 
 }
 
+.info-boxes {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 25px 12px 27px;
+    justify-content: space-around;
+}
+
 .info-box {
     display: inline-block;
-    margin: 10px 9px 12px 27px;
     text-align: center;
     text-transform: uppercase;
     justify-content: space-around;
@@ -50,7 +54,25 @@ body {
     background-color: #F0F0F0;
     width: 118px;
     height: 85px;
+    margin-right: 9px;
     border-radius: 5px;
+}
+
+.member-box {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-size: 14px;
+    background-color: #F0F0F0;
+    color: #61656D;
+    width: 238px;
+    height: 85px;
+    border-radius: 5px;
+}
+
+.member-icon {
+    width: 60px;
+    margin: 12px 11px 13px 19px;
 }
 
 .list-box {
@@ -75,6 +97,8 @@ body {
     margin-top: 20px;
     margin-bottom: 12px;
     justify-content: space-around;
+    display: flex;
+    flex-direction: column;
 }
 
 .list {
@@ -87,6 +111,7 @@ body {
 .icon {
     margin: 14px 49px 4.86px 49px;
     width: 20px;
+    align-items: center;
 }
 
 .orange-text {
