@@ -122,3 +122,23 @@ body {
     margin-top: 2.43px;
     border-radius: 5px;
 }
+
+.additional-info-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61656D;
+    background-color: #F0F0F0;
+    text-transform: uppercase;
+    width: 100%;
+    height: 34px;
+}
+
+.additional-info-text {
+    margin-top: 23px;
+    margin-bottom: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #61656D;
+    text-align: left;
+}
