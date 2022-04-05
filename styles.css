@@ -47,7 +47,6 @@ body {
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    justify-content: space-around;
     color: #61656D;
     font-weight: 400;
     font-size: 14px;
@@ -58,10 +57,16 @@ body {
     border-radius: 5px;
 }
 
+.info-box-icon {
+    margin: 14px 6px 4.86px 6px;
+    width: 20px;
+    align-items: center;
+}
+
 .member-box {
     display: flex;
-    align-items: left;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 14px;
     background-color: #F0F0F0;
     color: #61656D;
@@ -92,13 +97,11 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 12px;
-    justify-content: space-around;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
 }
 
 .list {
@@ -108,10 +111,19 @@ body {
     color: #61656D;
 }
 
-.icon {
-    margin: 14px 49px 4.86px 49px;
+.list-icon {
+    margin: 0px 6px 4.86px 6px;
     width: 20px;
     align-items: center;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    color: #61656D;
+}
+
+.recipe-step {
+    margin-bottom: 20px;
 }
 
 .orange-text {
@@ -132,11 +144,10 @@ body {
     text-transform: uppercase;
     width: 100%;
     height: 34px;
+    margin-bottom: 23px;
 }
 
-.additional-info-text {
-    margin-top: 23px;
-    margin-bottom: 21px;
+.additional-info-text p {
     font-size: 14px;
     font-weight: 400;
     color: #61656D;
